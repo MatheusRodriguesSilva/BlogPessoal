@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\Blogpessoal\\Blogpessoal.csproj": {}
+    "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoal\\BlogPessoal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoalTest\\BlogPessoalTest.csproj": {
+    "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoal\\BlogPessoal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoalTest\\BlogPessoalTest.csproj",
-        "projectName": "BlogPessoalTest",
-        "projectPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoalTest\\BlogPessoalTest.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoal\\BlogPessoal.csproj",
+        "projectName": "BlogPessoal",
+        "projectPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoal\\BlogPessoal.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoalTest\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,95 +40,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.11.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\Blogpessoal\\Blogpessoal.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\Blogpessoal\\Blogpessoal.csproj",
-        "projectName": "Blogpessoal",
-        "projectPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\Blogpessoal\\Blogpessoal.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\Blogpessoal\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoalTest\\BlogPessoalTest.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\BPVS\\Blogpessoal\\BlogPessoalTest\\BlogPessoalTest.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.13, )"
             },
